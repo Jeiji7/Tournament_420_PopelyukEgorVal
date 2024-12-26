@@ -26,10 +26,13 @@ namespace Tournament_420_PopelyukEgorVal.DataBaseFolder
         public string Prize { get; set; }
         public Nullable<int> ID_format { get; set; }
         public Nullable<int> ID_status { get; set; }
+        public Nullable<int> ID_user { get; set; }
+        public string NameTournament { get; set; }
     
         public virtual Format Format { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Registration> Registration { get; set; }
         public virtual Status Status { get; set; }
+        public virtual User User { get; set; }
     }
 }

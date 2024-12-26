@@ -13,17 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Tournament_420_PopelyukEgorVal
+namespace Tournament_420_PopelyukEgorVal.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для AddTournament.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddTournament : Page
     {
-        public MainWindow()
+        public AddTournament(User userOrganizer)
         {
             InitializeComponent();
-            MainFrame.NavigationService.Navigate(new Pages.AuthorizationPage());
         }
+
+
     }
 }
