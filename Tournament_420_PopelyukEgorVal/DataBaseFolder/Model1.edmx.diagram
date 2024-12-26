@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d86978fcaef64e4994d079c1f0a3f6f0" Name="Diagram1">
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Format" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Match" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Registration" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Role" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Status" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Teams" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Teams_users" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.Tournament" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.User" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_420_PopelyukEgorValModel.User_states" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Tournament_Format" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Match_Registration" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Match_Registration1" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Registration_Tournament" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Registration_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Tournament_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Teams_users_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_Teams_users_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_420_PopelyukEgorValModel.FK_User_User_states" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
