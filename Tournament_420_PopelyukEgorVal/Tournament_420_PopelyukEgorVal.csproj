@@ -140,6 +140,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\TournamentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\ViewerPageMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -157,6 +161,9 @@
     </Compile>
     <Compile Include="Pages\PlayerPageMenu.xaml.cs">
       <DependentUpon>PlayerPageMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TournamentView.xaml.cs">
+      <DependentUpon>TournamentView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ViewerPageMenu.xaml.cs">
       <DependentUpon>ViewerPageMenu.xaml</DependentUpon>

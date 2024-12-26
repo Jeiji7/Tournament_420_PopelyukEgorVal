@@ -40,6 +40,8 @@ namespace Tournament_420_PopelyukEgorVal.Pages
             tournament.Format = (Format)FormatCB.SelectedItem;
             tournament.Count_user = int.Parse(CountUser.Text);
             tournament.ID_user = App.currentUser.ID_user;
+            tournament.ID_status = 1;
+            App.db.Tournament.Add(tournament);
             App.db.SaveChanges();
             NavigationService.Navigate(new Pages.OrganizerPageMenu(App.currentUser));
 

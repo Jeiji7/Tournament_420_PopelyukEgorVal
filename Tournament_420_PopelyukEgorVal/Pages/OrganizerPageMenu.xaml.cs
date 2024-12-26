@@ -31,7 +31,7 @@ namespace Tournament_420_PopelyukEgorVal.Pages
 
         private void Button_Click_Tournament_CreateTournament(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Pages.AddTournament(App.currentUser));
         }
 
         private void Button_Click_PlayerActiveTournament(object sender, RoutedEventArgs e)
